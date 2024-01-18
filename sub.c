@@ -1,10 +1,11 @@
 #include "monty.h"
 /**
-  *f_sub- Sustration
+  *f_sub- fnction for Sustration
   *@head: stack head
   *@counter: line_number
   *Return: no return
  */
+
 void f_sub(stack_t **head, unsigned int counter)
 {
 	stack_t *aux;
