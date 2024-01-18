@@ -7,7 +7,7 @@ Files containing Monty byte codes usually have the .m extension. Most of the ind
 
 Monty byte code files can contain blank lines (empty or made of spaces only, and any additional text after the opcode or its required argument is not taken into account:
 
-The monty program
+The Monty program
 
 Usage: monty file
 where file is the path to the file containing Monty byte code
@@ -17,7 +17,7 @@ where <file> is the name of the file
 If the file contains an invalid instruction, print the error message L<line_number>: unknown instruction <opcode>, followed by a new line, and exit with the status EXIT_FAILURE
 where is the line number where the instruction appears.
 Line numbers always start at 1
-The monty program runs the bytecodes line by line and stop if either:
+The Monty program runs the bytecodes line by line and stop if either:
 it executed properly every line of the file
 it finds an error in the file
 an error occured
